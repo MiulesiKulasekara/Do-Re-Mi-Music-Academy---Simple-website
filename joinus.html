@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Do Re Me Music Academy</title>
+  </head>
+  <body>
+    <!--Header-->
+    <div class="navbar-container">
+      <a href="./index.html" target="blank"
+        ><img class="navbarImg" src="./logo/img.png" alt="logo" width="10%"
+      /></a>
+      <ul class="navbarUl">
+        <li class="navbarLi">
+          <a class="navbarA" href="./index.html" target="blank">Home</a>
+        </li>
+        <li class="navbarLi">
+          <a class="navbarA" href="./aboutus.html" target="blank">About us</a>
+        </li>
+        <li class="navbarLi">
+          <a class="navbarA" href="./details.html">Details</a>
+        </li>
+        <li class="navbarLi">
+          <a class="navbarA" href="./joinus.html">Join us</a>
+        </li>
+      </ul>
+    </div>
+    <!--Header-->
+
+    <!--Home page-->
+    <div class="maincontainer-joinus">
+      <div class="centerForm">
+        <div class="centerFormInner">
+          <h2 class="joinTittle">Join us form</h2>
+          <form>
+            <div class="lbl">
+              <lable class="myLable" for="name">Name</lable>
+            </div>
+            <input class="myInput" type="text" required /><br /><br />
+
+            <div class="lbl">
+              <lable class="myLable" for="gname">Guardian</lable>
+            </div>
+            <input class="myInput" type="text" required /><br /><br />
+
+            <div class="lbl">
+              <lable class="myLable" for="grade">Grade</lable>
+            </div>
+            <input
+              class="myInput"
+              type="number"
+              min="1"
+              max="13"
+              required
+            /><br /><br />
+
+            <div class="lbl">
+              <lable class="myLable" for="school">School</lable>
+            </div>
+            <input class="myInput" type="text" required /><br /><br />
+
+            <div class="lbl">
+              <lable class="myLable" for="email">Email</lable>
+            </div>
+            <input class="myInput" type="email" required /><br /><br />
+
+            <div class="lbl">
+              <lable class="myLable" for="phone">Tele</lable>
+            </div>
+            <input
+              class="myInput"
+              type="tel"
+              pattern="[0-9]"
+              required
+            /><br /><br />
+
+            <div class="lbl">
+              <lable class="myLable" for="phone">Address</lable>
+            </div>
+            <textarea
+              class="myInputaddress"
+              rows="5"
+              cols="50"
+              required
+            ></textarea
+            ><br /><br />
+
+            <div class="lbl">
+              <lable class="myLable" for="name">Do you have a instrument</lable>
+            </div>
+            <select class="myInputSelect" name="instrument">
+              <option value="yes">Yes</option>
+              <option value="no">No</option></select
+            ><br /><br />
+
+            <button class="joinebtn" id="joinButton">
+              <a class="joinbtnlink" href="./joinus.html">Submit</a>
+            </button>
+          </form>
+          <p style="width: 550px">
+            Fill this form to register your child in our institution.As space is
+            limited, we will check the remaining spaces in the class and send
+            you a message.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <hr />
+      <footer>
+        <p>&copy;2023. Do Re Mi - The music academy.All right reseved.</p>
+      </footer>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
